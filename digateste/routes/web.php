@@ -14,5 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $arr = [1, 2, 3, 4];
+
+    return view('welcome',[ 
+                    'arr' => $arr
+    ]);
 });
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+Route::get('/tag', function () {
+    return view('tag');
+});
+
+Route::get('/list', function () {
+    return view('list');
+});
+
+
