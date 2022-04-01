@@ -1,1 +1,1 @@
-document.write("JS está funcionando");
+console.log("JS está funcionando");

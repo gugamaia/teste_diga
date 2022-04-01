@@ -1,4 +1,14 @@
 * {
     font-family: 'Source Sans Pro';
+    color: #000;
+    text-align: center;
 }
  
+header {
+    background-color: rgb(21, 155, 61);
+    display: flex;
+}
+
+footer {
+    text-align: center;
+}

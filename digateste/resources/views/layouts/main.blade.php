@@ -24,19 +24,13 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
-                    <a href="/" class="navbar-brand">
-                        <img src="digateste/public/img/background_movies.jpg" alt="Lista de Filmes">
-                    </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link">O que quero</a>
+                            <a href="/" class="nav-link">Home</a>
                         </li>
+                       
                         <li class="nav-item">
                             <a href="register" class="nav-link">Cadastro de Pessoas</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="list" class="nav-link">Lista de Filmes</a>
                         </li>
 
                         <li class="nav-item">
@@ -47,11 +41,19 @@
                             <a href="tag" class="nav-link">Cadastro de Tag</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a href="list" class="nav-link">Lista de Filmes</a>
+                        </li>
+
                     </ul>
                 </div>
             </nav>
         </header>
         @yield('content')
+
+        <a href="/" class="navbar-brand">
+                        <img src="/img/background_movies.jpg" alt="Lista de Filmes">
+                    </a>
 
         <footer>
             <p>Copyright Gustavo Maia &copy; 2022</p>

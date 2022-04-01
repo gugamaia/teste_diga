@@ -5,6 +5,5 @@
 @section('content')
 
 <h2>Cadastre seus filmes aqui</h2>
-<a href="tag">Cadastrar tags</href>
 
 @endsection
